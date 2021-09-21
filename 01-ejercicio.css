@@ -1,0 +1,47 @@
+.flexbox{
+    background-color:tomato;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flexbox div{
+    background-color:turquoise;
+    color:white;
+    padding: 10px;
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+
+
+
+/* .flexbox{
+    background-color: tomato;
+    display: flex;
+    flex-direction: row;
+
+    /* flex-wrap: wrap; *
+
+/* .item < div{
+    height: 40px;
+    padding: 2em;
+    margin: 5px;
+    background-color: black;
+    color:white; */ 
+    
+    /* background-color:cornflowerblue;
+    width: 200px;
+    color:white;
+    height: 100px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px; */
+

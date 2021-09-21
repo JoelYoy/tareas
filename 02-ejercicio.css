@@ -1,0 +1,27 @@
+.cajas{
+    background-color:black;
+    display: grid;
+    font-size: 30px;
+    grid-template-areas: "header header header" "footer footer footer";
+    grid-template-rows: 100px;
+    width: auto;
+    height: 400px;
+
+ 
+}
+
+.cajas > *{
+    background-color:brown;
+    border: 1px solid black;
+    color:white;
+    text-align: center;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+header, footer{
+    grid-column: 1 / spam 3;
+}   
+
